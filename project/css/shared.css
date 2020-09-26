@@ -24,7 +24,7 @@ h1{
     font-weight: 900;
     font-size: 30px;
     text-transform: uppercase;
-    color: #E91C1C;
+    color: #554116;
     text-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 h1::after{/*UNDERLINE*/
@@ -32,13 +32,13 @@ h1::after{/*UNDERLINE*/
     content: "";
     height: 2px;
     width: 150px;
-    background: #E91C1C;
+    background: #554116;
     margin: 5px auto 40px;
     box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 h2{
     line-height: 50px;
-    color: #E91C1C;
+    color:#554116;
 }
 h3{
     line-height: 30px;
@@ -114,7 +114,7 @@ section{
 }
 /*HOME SECTION STYLES*/
 #home{
-    background: url(../images/background_studio.png) no-repeat 504 504;
+    background: url(../images/background_studio.png) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -275,7 +275,7 @@ section{
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
 .submit input[type="submit"]:hover{
-    color: #000;
+    color: rgb(58, 56, 56);
     background-color: #8D8E8F;
     box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
 }

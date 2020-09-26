@@ -1,5 +1,5 @@
 .menu{
-    color: #f00;
+    color:#554116;
     font: bold 12px/18px sans-serif;
     text-align: center;
     display: inline;
@@ -19,13 +19,13 @@
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
     border-radius: 6px;
     cursor: pointer;
-    transition-property: background;
+    transition-property:background;
     transition-duration: .4s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
 }
 .menu li:hover{
-    color: #f00;
+    color:#554116;
     background-color: rgba(100,65,0,0.3);
 }
 /*GALLERY SECTION ANIMATION*/
@@ -37,7 +37,7 @@
     border-radius: 8px;
     padding: 1px;
     border: 1px solid #021a40;
-    background-color: #ff0;
+    background-color: #b64e76;
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.7);
 }
 .photo-container{
